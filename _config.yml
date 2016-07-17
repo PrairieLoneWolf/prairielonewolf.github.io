@@ -24,8 +24,8 @@ redcarpet:
     - with_toc_data
     
 
-title : Jekyll Jacman
-tagline: A fresh looking and responsive theme for Jekyll
+title : mestarshine
+tagline: 快乐工作！快乐学习！快乐生活
 
 defaults:
   -
@@ -35,11 +35,11 @@ defaults:
     values:
       type: "post"
 
-##### Menu
+##### 菜单
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  主页: /
+  归档: /archives
+  关于: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -47,7 +47,7 @@ menu:
 ## title: tags (or categories)
 ## ---
 
-#### Widgets
+#### 控件
 widgets: 
 - category
 - tag
@@ -60,67 +60,67 @@ widgets:
 #### RSS 
 rss: /atom.xml ## RSS address.
 
-#### Image
+#### 图片相关
 imglogo:
-  enable: true             ## display image logo true/false.
-  src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
-favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
-apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
-author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
-banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
+  enable: flase             ## 是否显示网址logo.
+  src: img/logo.png        ## 推荐使用svg和png格式的图片,图片存放在/assets/img中.
+favicon: img/favicon.ico   ## favicon尺寸为:32px*32px,的ico格式，图片存放在/assets/img中.
+apple_icon: img/jacman.jpg ## apple-touch-icon尺寸为：114px*114px,存放在/assests/img中.
+author_img: img/author.jpg ## 作者图像尺寸:220px*220px.不设置不显示
+banner_img: #img/banner.jpg ## Banner尺寸:1920px*200px+.
 
-#### index post is expanding or not 
+#### 首页相关
 index:
-  expand: true           ## default is unexpanding,so you can only see the short description of each post.
+  expand: true           ## 首页文字是否展开，默认为展开，显示Read More
   excerpt_link: Read More  
 
-close_aside: false  #close sidebar in post page if true
-mathjax: false      #enable mathjax if true
+close_aside: false  #如果要关闭侧边栏，设为true，就会在博文页面自动关闭侧边栏
+mathjax: false      #是否支持mathjax，为true支持
 
-#### Author information
+#### 作者信息
 author:
-  name: yitao      ## e.g. wuchong Author name
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  name: mestarshine      ## e.g. wuchong Author name
+  intro_line1:  "Hello ,I'm Larry Page in Google."    ## 网站底部的个人介绍
+  intro_line2:  "This is my blog,believe it or not."  ## 第二行
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
-  douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
-  email:      ## e.g. imjark@gmail.com
-  twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github:     ## e.g. wuchong for https://github.com/wuchong
+  weibo_verifier:  ## 微博秀的验证码
+  tsina:      ## 用于微博秀和微博分享
+  douban:     ## 用于豆瓣分享
+  zhihu:      ## 用于知乎分享
+  email: mestarshine@gmail.com     ## e.g. imjark@gmail.com
+  twitter:    ## 用于twitter分享
+  github: mestarshine
   facebook:   ## e.g. imjark for https://facebook.com/imjark
   linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
-#### Toc
+#### 目录
 toc:
-  article: true   ## show contents in article.
-  aside: true     ## show contents in aside.
+  article: true   ## 是否在文章中显示目录.
+  aside: true     ## 是否在侧边栏显示目录.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
-#### Links
-links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+#### 友情链接
+#links:
+#  码农圈: https://coderq.com
+#  Jark's Blog: http://wuchong.me
 
 
 
-#### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+#### 评论
+duoshuo_shortname:    ## 多说（http://duoshuo.com/）的用户名，启用多说的评论系统.
+disqus_shortname:     ## disqus（http://disqus.com/）的用户名，启用disqus评论系统.
 
-#### Share button
+#### 分享按钮
 jiathis:
-  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
-  id:    ## e.g. 1889330 your jiathis ID. 
-  tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
+  enable: false ## 加网（http://www.jiathis.com/）分享系统。默认关闭，因为主题已经内置了原生的分享功能。
+  id:    ## 你的加网id.
+  tsina: ## 你的sina微博id.
 
-#### Analytics
+#### 网站统计
 google_analytics:
   enable: false
   id:        ## e.g. UA-46321946-2 your google analytics ID.
@@ -128,18 +128,18 @@ google_analytics:
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
-  enable: false
-  sitecode:  ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  enable: true
+  sitecode: 33882a6ad94107cda26eff676b0499d7 ##百度统计sitecode
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
 
-#### Miscellaneous
-fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
-totop: true           ## if you want to scroll to top in every post set the value to true
+#### 杂项
+fancybox: true        ## 图片浏览，默认关闭，如果你经常发表 Gallery 类型的文章，那么请设置为true
+totop: true           ## 返回顶部，右下角返回顶部按钮，默认开启
 
 
-#### Custom Search
+#### 自定义搜索
 google_cse: 
   enable: false
   cx: 018294693190868310296:abnhpuysycw  ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
