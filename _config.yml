@@ -80,8 +80,8 @@ mathjax: false      #是否支持mathjax，为true支持
 #### 作者信息
 author:
   name: mestarshine      ## e.g. wuchong Author name
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## 网站底部的个人介绍
-  intro_line2:  "This is my blog,believe it or not."  ## 第二行
+  ## intro_line1:  "Hello ,I'm Larry Page in Google."    ## 网站底部的个人介绍
+  ## intro_line2:  "This is my blog,believe it or not."  ## 第二行
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## 微博秀的验证码
   tsina:      ## 用于微博秀和微博分享
