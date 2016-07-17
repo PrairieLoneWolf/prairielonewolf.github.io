@@ -63,7 +63,7 @@ rss: /atom.xml ## RSS address.
 #### 图片相关
 imglogo:
   enable: flase             ## 是否显示网址logo.
-  src: img/logo.png        ## 推荐使用svg和png格式的图片,图片存放在/assets/img中.
+  ##src: img/logo.png        ## 推荐使用svg和png格式的图片,图片存放在/assets/img中.
 favicon: img/favicon.ico   ## favicon尺寸为:32px*32px,的ico格式，图片存放在/assets/img中.
 apple_icon: img/jacman.jpg ## apple-touch-icon尺寸为：114px*114px,存放在/assests/img中.
 ##author_img: img/author.jpg ## 作者图像尺寸:220px*220px.不设置不显示
